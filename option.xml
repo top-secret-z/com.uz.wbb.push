@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/option.xsd">
+	<import>
+		<options>
+			<option name="module_push_thread">
+				<categoryname>board.thread.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			
+			<option name="module_push_thread_pusher">
+				<categoryname>board.thread.general</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>System</defaultvalue>
+			</option>
+		</options>
+	</import>
+</data>
