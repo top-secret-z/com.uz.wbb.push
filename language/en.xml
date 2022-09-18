@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="gb">
-	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.module_push_thread"><![CDATA[Enable pushing of threads]]></item>
-		<item name="wcf.acp.option.module_push_thread_pusher"><![CDATA[Name of the author of the push post]]></item>
-		<item name="wcf.acp.option.module_push_thread_pusher.description"><![CDATA[This can be the name of an existing user or a fictitious name. If the user does not exist, the push post will be a guest post.]]></item>
-	</category>
-	
-	<category name="wbb.acp.board">
-		<item name="wbb.acp.board.threadPushEnable"><![CDATA[Threads can be pushed]]></item>
-	</category>
-	
-	<category name="wbb.thread">
-		<item name="wbb.thread.threadPush.noAuthor"><![CDATA[No author could be found for the push post. The action is canceled.]]></item>
-		<item name="wbb.thread.threadPush.push"><![CDATA[Push]]></item>
-		<item name="wbb.thread.threadPush.push.not"><![CDATA[Push]]></item>
-		<item name="wbb.thread.threadPush.push.sure"><![CDATA[Do you really want to push this thread?]]></item>
-		<item name="wbb.thread.threadPush.push.time"><![CDATA[Pushing threads is limited in time. You may push the thread again:]]></item>
-		<item name="wbb.thread.threadPush.push.time.now"><![CDATA[Immediately. It may be necessary to reload the page.]]></item>
-		<item name="wbb.thread.threadPush.text"><![CDATA[{$username} has pushed the thread.]]></item>
-		<item name="wbb.thread.threadPush.title"><![CDATA[Push Thread]]></item>
-	</category>
-	
-	<category name="wcf.acp.group">
-		<item name="wcf.acp.group.option.user.board.canPushThread"><![CDATA[Can push own Threads]]></item>
-		<item name="wcf.acp.group.option.user.board.canPushThreadUnlimited"><![CDATA[Can push Threads without Restrictions]]></item>
-		<item name="wcf.acp.group.option.user.board.pushThreadLock"><![CDATA[Delay for Consecutive Pushes]]></item>
-	</category>
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.module_push_thread"><![CDATA[Enable pushing of threads]]></item>
+        <item name="wcf.acp.option.module_push_thread_pusher"><![CDATA[Name of the author of the push post]]></item>
+        <item name="wcf.acp.option.module_push_thread_pusher.description"><![CDATA[This can be the name of an existing user or a fictitious name. If the user does not exist, the push post will be a guest post.]]></item>
+    </category>
+
+    <category name="wbb.acp.board">
+        <item name="wbb.acp.board.threadPushEnable"><![CDATA[Threads can be pushed]]></item>
+    </category>
+
+    <category name="wbb.thread">
+        <item name="wbb.thread.threadPush.noAuthor"><![CDATA[No author could be found for the push post. The action is canceled.]]></item>
+        <item name="wbb.thread.threadPush.push"><![CDATA[Push]]></item>
+        <item name="wbb.thread.threadPush.push.not"><![CDATA[Push]]></item>
+        <item name="wbb.thread.threadPush.push.sure"><![CDATA[Do you really want to push this thread?]]></item>
+        <item name="wbb.thread.threadPush.push.time"><![CDATA[Pushing threads is limited in time. You may push the thread again:]]></item>
+        <item name="wbb.thread.threadPush.push.time.now"><![CDATA[Immediately. It may be necessary to reload the page.]]></item>
+        <item name="wbb.thread.threadPush.text"><![CDATA[{$username} has pushed the thread.]]></item>
+        <item name="wbb.thread.threadPush.title"><![CDATA[Push Thread]]></item>
+    </category>
+
+    <category name="wcf.acp.group">
+        <item name="wcf.acp.group.option.user.board.canPushThread"><![CDATA[Can push own Threads]]></item>
+        <item name="wcf.acp.group.option.user.board.canPushThreadUnlimited"><![CDATA[Can push Threads without Restrictions]]></item>
+        <item name="wcf.acp.group.option.user.board.pushThreadLock"><![CDATA[Delay for Consecutive Pushes]]></item>
+    </category>
 </language>

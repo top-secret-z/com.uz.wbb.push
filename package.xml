@@ -1,58 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package name="com.uz.wbb.push" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/package.xsd">
-	<packageinformation>
-		<packagename>Push Threads</packagename>
-		<packagedescription>Allows pushing of threads.</packagedescription>
-		<packagename language="de">Themen pushen</packagename>
-		<packagedescription language="de">Erlaubt das Pushen von Themen.</packagedescription>
-		<version>5.5.0</version>
-		<date>2022-05-10</date>
-	</packageinformation>
-	
-	<authorinformation>
-		<author>Zaydowicz</author>
-	</authorinformation>
-	
-	<requiredpackages>
-		<requiredpackage minversion="5.3.0">com.woltlab.wcf</requiredpackage>
-		<requiredpackage minversion="5.3.0">com.woltlab.wbb</requiredpackage>
-	</requiredpackages>
-	
-	<excludedpackages>
-		<excludedpackage version="5.6.0 Alpha 1">com.woltlab.wcf</excludedpackage>
-	</excludedpackages>
-	
-	<optionalpackages>
-		<optionalpackage file="optionals/com.uz.wbb.push.jcoins.tar">com.uz.wbb.push.jcoins</optionalpackage>
-	</optionalpackages>
-	
-	<instructions type="install">
-		<instruction type="sql">install.sql</instruction>
-		<instruction type="file">files_wcf.tar</instruction>
-		<instruction type="file" application="wbb">files.tar</instruction>
-		<instruction type="acpTemplate" application="wbb">acptemplates.tar</instruction>
-		<instruction type="template" application="wbb">templates.tar</instruction>
-		<instruction type="language">language/*.xml</instruction>
-		<instruction type="eventListener">eventListener.xml</instruction>
-		<instruction type="option">option.xml</instruction>
-		<instruction type="coreObject">coreObject.xml</instruction>
-		<instruction type="userGroupOption">userGroupOption.xml</instruction>
-		<instruction type="templateListener">templateListener.xml</instruction>
-	</instructions>
-	
-	<instructions type="update" fromversion="5.3.0">
-		<instruction type="file" application="wbb">files.tar</instruction>
-		<instruction type="template" application="wbb">templates.tar</instruction>
-		<instruction type="language">language/*.xml</instruction>
-	</instructions>
-	
-	<instructions type="update" fromversion="5.3.1">
-		<instruction type="file" application="wbb">files.tar</instruction>
-		<instruction type="template" application="wbb">templates.tar</instruction>
-	</instructions>
-	
-	<instructions type="update" fromversion="5.4.0">
-		<instruction type="file" application="wbb">files.tar</instruction>
-		<instruction type="template" application="wbb">templates.tar</instruction>
-	</instructions>
+<package name="de.softcreatr.wbb.push" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/2019/package.xsd">
+    <packageinformation>
+        <packagename>Push Threads</packagename>
+        <packagedescription>Allows pushing of threads.</packagedescription>
+        <packagename language="de">Themen pushen</packagename>
+        <packagedescription language="de">Erlaubt das Pushen von Themen.</packagedescription>
+        <version>5.5.1</version>
+        <date>2022-09-18</date>
+    </packageinformation>
+
+    <authorinformation>
+        <author><![CDATA[SoftCreatR.dev]]></author>
+        <authorurl><![CDATA[https://softcreatr.dev]]></authorurl>
+    </authorinformation>
+
+    <requiredpackages>
+        <requiredpackage minversion="5.3.0">com.woltlab.wcf</requiredpackage>
+        <requiredpackage minversion="5.3.0">com.woltlab.wbb</requiredpackage>
+    </requiredpackages>
+
+    <excludedpackages>
+        <excludedpackage version="5.6.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+        <excludedpackage version="*">com.uz.wbb.push</excludedpackage>
+    </excludedpackages>
+
+    <optionalpackages>
+        <!-- <optionalpackage file="optionals/de.softcreatr.wbb.push.jcoins.tar.gz">de.softcreatr.wbb.push.jcoins</optionalpackage> -->
+    </optionalpackages>
+
+    <instructions type="install">
+        <instruction type="sql">install.sql</instruction>
+        <instruction type="file">files_wcf.tar</instruction>
+        <instruction type="file" application="wbb" />
+        <instruction type="acpTemplate" application="wbb" />
+        <instruction type="template" application="wbb" />
+        <instruction type="language" />
+        <instruction type="eventListener" />
+        <instruction type="option" />
+        <instruction type="coreObject" />
+        <instruction type="userGroupOption" />
+        <instruction type="templateListener" />
+    </instructions>
+
+    <instructions type="update" fromversion="5.3.0">
+        <instruction type="file" application="wbb" />
+        <instruction type="template" application="wbb" />
+        <instruction type="language" />
+    </instructions>
+
+    <instructions type="update" fromversion="5.3.1">
+        <instruction type="file" application="wbb" />
+        <instruction type="template" application="wbb" />
+    </instructions>
+
+    <instructions type="update" fromversion="5.4.0">
+        <instruction type="file" application="wbb" />
+        <instruction type="template" application="wbb" />
+    </instructions>
+
+    <instructions type="update" fromversion="5.5.0">
+        <instruction type="file">files_wcf.tar</instruction>
+        <instruction type="file" application="wbb" />
+        <instruction type="acpTemplate" application="wbb" />
+        <instruction type="template" application="wbb" />
+        <instruction type="language" />
+        <instruction type="eventListener" />
+        <instruction type="option" />
+        <instruction type="coreObject" />
+        <instruction type="userGroupOption" />
+        <instruction type="templateListener" />
+    </instructions>
 </package>
