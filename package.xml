@@ -5,8 +5,8 @@
         <packagedescription>Allows pushing of threads.</packagedescription>
         <packagename language="de">Themen pushen</packagename>
         <packagedescription language="de">Erlaubt das Pushen von Themen.</packagedescription>
-        <version>5.5.1</version>
-        <date>2022-09-18</date>
+        <version>5.5.2</version>
+        <date>2022-09-27</date>
     </packageinformation>
 
     <authorinformation>
@@ -69,5 +69,9 @@
         <instruction type="coreObject" />
         <instruction type="userGroupOption" />
         <instruction type="templateListener" />
+    </instructions>
+
+    <instructions type="update" fromversion="5.5.1">
+        <instruction type="file" application="wbb" />
     </instructions>
 </package>
