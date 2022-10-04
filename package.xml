@@ -5,8 +5,9 @@
         <packagedescription>Allows pushing of threads.</packagedescription>
         <packagename language="de">Themen pushen</packagename>
         <packagedescription language="de">Erlaubt das Pushen von Themen.</packagedescription>
-        <version>5.5.2</version>
-        <date>2022-09-27</date>
+        <packageurl><![CDATA[https://softcreatr.dev/shop/product/171]]></packageurl>
+        <version>5.5.3</version>
+        <date>2022-10-04</date>
         <license><![CDATA[LGPL <https://opensource.org/licenses/lgpl-license.php>]]></license>
     </packageinformation>
 
@@ -74,5 +75,9 @@
 
     <instructions type="update" fromversion="5.5.1">
         <instruction type="file" application="wbb" />
+    </instructions>
+
+    <instructions type="update" fromversion="5.5.2">
+        <instruction type="acpTemplate" application="wbb" />
     </instructions>
 </package>

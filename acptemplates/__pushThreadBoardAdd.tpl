@@ -1,1 +1,3 @@
-<label><input type="checkbox" id="threadPushEnable" name="threadPushEnable" value="1"{if $threadPushEnable} checked{/if}> {lang}wbb.acp.board.threadPushEnable{/lang}</label>
+{if MODULE_PUSH_THREAD}
+    <label><input type="checkbox" id="threadPushEnable" name="threadPushEnable" value="1"{if $threadPushEnable} checked{/if}> {lang}wbb.acp.board.threadPushEnable{/lang}</label>
+{/if}
