@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
-	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.module_push_thread"><![CDATA[Pushen von Themen aktivieren]]></item>
-		<item name="wcf.acp.option.module_push_thread_pusher"><![CDATA[Name des Erstellers des Push-Beitrags]]></item>
-		<item name="wcf.acp.option.module_push_thread_pusher.description"><![CDATA[Dies kann der Name eines existierenden Benutzers sein oder ein fiktiver Name. Wenn der Benutzer nicht existiert, wird der Push-Beitrag ein Gast-Beitrag sein.]]></item>
-	</category>
-	
-	<category name="wbb.acp.board">
-		<item name="wbb.acp.board.threadPushEnable"><![CDATA[Themen können gepusht werden]]></item>
-	</category>
-	
-	<category name="wbb.thread">
-		<item name="wbb.thread.threadPush.noAuthor"><![CDATA[Es konnte kein Autor für den Push-Beitrag gefunden werden. Die Aktion wird abgebrochen.]]></item>
-		<item name="wbb.thread.threadPush.push"><![CDATA[Pushen]]></item>
-		<item name="wbb.thread.threadPush.push.not"><![CDATA[Pushen]]></item>
-		<item name="wbb.thread.threadPush.push.sure"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} das Thema wirklich pushen?]]></item>
-		<item name="wbb.thread.threadPush.push.time"><![CDATA[Das Pushen von Themen ist zeitlich begrenzt. {if LANGUAGE_USE_INFORMAL_VARIANT}Du darfst{else}Sie dürfen{/if} das Thema erst wieder pushen:]]></item>
-		<item name="wbb.thread.threadPush.push.time.now"><![CDATA[Sofort. Eventuell muss die Seite neu geladen werden.]]></item>
-		<item name="wbb.thread.threadPush.text"><![CDATA[{$username} hat das Thema gepusht.]]></item>
-		<item name="wbb.thread.threadPush.title"><![CDATA[Thema pushen]]></item>
-	</category>
-	
-	<category name="wcf.acp.group">
-		<item name="wcf.acp.group.option.user.board.canPushThread"><![CDATA[Kann eigene Themen pushen]]></item>
-		<item name="wcf.acp.group.option.user.board.canPushThreadUnlimited"><![CDATA[Kann Themen ohne Einschränkungen pushen]]></item>
-		<item name="wcf.acp.group.option.user.board.pushThreadLock"><![CDATA[Mindestzeit zwischen zwei Pushes]]></item>
-	</category>
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.module_push_thread"><![CDATA[Pushen von Themen aktivieren]]></item>
+        <item name="wcf.acp.option.module_push_thread_pusher"><![CDATA[Name des Erstellers des Push-Beitrags]]></item>
+        <item name="wcf.acp.option.module_push_thread_pusher.description"><![CDATA[Dies kann der Name eines existierenden Benutzers sein oder ein fiktiver Name. Wenn der Benutzer nicht existiert, wird der Push-Beitrag ein Gast-Beitrag sein.]]></item>
+    </category>
+
+    <category name="wbb.acp.board">
+        <item name="wbb.acp.board.threadPushEnable"><![CDATA[Themen können gepusht werden]]></item>
+    </category>
+
+    <category name="wbb.thread">
+        <item name="wbb.thread.threadPush.noAuthor"><![CDATA[Es konnte kein Autor für den Push-Beitrag gefunden werden. Die Aktion wird abgebrochen.]]></item>
+        <item name="wbb.thread.threadPush.push"><![CDATA[Pushen]]></item>
+        <item name="wbb.thread.threadPush.push.not"><![CDATA[Pushen]]></item>
+        <item name="wbb.thread.threadPush.push.sure"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} das Thema wirklich pushen?]]></item>
+        <item name="wbb.thread.threadPush.push.time"><![CDATA[Das Pushen von Themen ist zeitlich begrenzt. {if LANGUAGE_USE_INFORMAL_VARIANT}Du darfst{else}Sie dürfen{/if} das Thema erst wieder pushen:]]></item>
+        <item name="wbb.thread.threadPush.push.time.now"><![CDATA[Sofort. Eventuell muss die Seite neu geladen werden.]]></item>
+        <item name="wbb.thread.threadPush.text"><![CDATA[{$username} hat das Thema gepusht.]]></item>
+        <item name="wbb.thread.threadPush.title"><![CDATA[Thema pushen]]></item>
+    </category>
+
+    <category name="wcf.acp.group">
+        <item name="wcf.acp.group.option.user.board.canPushThread"><![CDATA[Kann eigene Themen pushen]]></item>
+        <item name="wcf.acp.group.option.user.board.canPushThreadUnlimited"><![CDATA[Kann Themen ohne Einschränkungen pushen]]></item>
+        <item name="wcf.acp.group.option.user.board.pushThreadLock"><![CDATA[Mindestzeit zwischen zwei Pushes]]></item>
+    </category>
 </language>
